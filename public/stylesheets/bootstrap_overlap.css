@@ -1,0 +1,8 @@
+.col-centered{float: none; margin: 0 auto;}
+.no-side-padding{padding: 0;}
+
+/*mobile adjustment*/
+
+@media only screen and (max-width : 769px) {
+    
+}   
