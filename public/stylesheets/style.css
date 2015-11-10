@@ -49,13 +49,18 @@ nav .title_short{display: none;}
 .welcome_page .tagline{font-size: 1.3em; margin:30px 0; padding: 10px; font-style: italic}
 
 /*Mission page*/
-.mission_page{background-color: #EFEFEF;height:auto; padding: 40px 0;}
+.mission_page{background-color: #EFEFEF;height:auto; padding: 20px 0;}
 .mission_container{width: 1000px; margin: 0 auto;}
 .mission_rec_pic{width: 584px;margin: 45px 0 45px 123px;height: 355px;}
 .mission_content{width: 450px; font-size: 1.2em; margin: 29% 0 auto;}
 
 @media only screen and (max-width : 769px) {
-  .mission_container{width:100%;}
+  .mission_container{width:100%; padding: 0 20px;}
+  .mission_content{width: 100%; font-size: 1.1em; margin: 0 auto;}
+  .welcome_page{padding: 30px 15px;}
+  .welcome_page .tagline{font-size: 1.2em;}
+
+
 }
 
 /*tagline*/
@@ -76,22 +81,24 @@ nav .title_short{display: none;}
 
 /*Contact page*/
 .contact_page{background-color: #FCFCFC;height:auto; padding: 40px 0;}
-.contact_container{width: 1000px; margin: 0 auto;}
+.contact_container{width: 1200px; margin: 0 auto;}
 .mission_rec_pic{width: 584px;margin: 45px 0 45px 123px;height: 355px;}
 .contact_content{width: 450px; font-size: 1.2em; margin: 29% 0 auto;}
 
 @media only screen and (max-width : 769px) {
   .welcome_page .tagline{margin:25px 0;}
   .primary_promo_vid_container{width:100%;}
-  .mission_content{font-size: 1.2em; margin: 0 auto;}
-  .tagline_page .tagline_content{font-size: 1.2em; font-weight: 100; padding:20px 0; font-style: italic;}
+  .tagline_page .tagline_content{font-size: 1.1em; font-weight: 100; padding:20px 0; font-style: italic;}
+  .contact_container{width: 100%; margin: 0 auto;}
+  .contact_content{width: 100%; margin: 20px 0;}
+
 
   nav .title-full{display:none;}
   nav .title-short{display:inline-block;}
 
-}   
+}
 
-/*Subscription*/
+/*Footer*/
 
 .subscribe_page{background-color: #EFEFEF;}
 .subscribe_page .subscribe_content{font-size: 2em; text-align: center; margin-bottom: 20px; font-style: italic;}
@@ -104,8 +111,6 @@ nav .title_short{display: none;}
 .share_facebook_btn{display: inline-block; width: 30px; height: 30px; background-position: -60px -78px;}
 .share_twitter_btn{display: inline-block;width: 30px;height: 30px;background-position: -90px -78px;}
 
-
-/*Footer*/
 .copy_right{font-size: 0.8em; color: gray; text-align: center; margin: 0 auto;}
 
 
@@ -113,6 +118,7 @@ nav .title_short{display: none;}
 
 @media only screen and (max-width : 769px) {
   .subscription_input{width:75%; text-align: center;}
+  .subscribe_page .subscribe_content{font-size: 1.3em;}
 }   
 
 
