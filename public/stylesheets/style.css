@@ -54,6 +54,11 @@ nav .title_short{display: none;}
 .mission_rec_pic{width: 584px;margin: 45px 0 45px 123px;height: 355px;}
 .mission_content{width: 450px; font-size: 1.2em; margin: 29% 0 auto;}
 
+@media only screen and (max-width : 769px) {
+  .mission_container{width:100%;}
+}
+
+/*tagline*/
 
 .tagline_page{background-color: white;}
 .tagline_page .tagline_content{color: #595959; font-size: 1.7em; font-weight: 100; padding:30px 0; font-style: italic;}
@@ -64,6 +69,10 @@ nav .title_short{display: none;}
 .discipline_cir_pic{width:270px; margin:50px auto;}
 .discipline_page .discipline_content{font-size: 1.5em; font-weight: 100; margin: 29% 0 0 0;}
 .discipline_description{padding: 0 25px;}
+
+@media only screen and (max-width : 769px) {
+  .discipline_container{width:100%;}
+}
 
 /*Contact page*/
 .contact_page{background-color: #FCFCFC;height:auto; padding: 40px 0;}
